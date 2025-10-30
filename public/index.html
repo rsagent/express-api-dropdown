@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language & City Selection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Select Language and City</h2>
+    <form id="selectionForm">
+      <label for="language">Language:</label>
+      <select id="language" name="language">
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+        <option value="spanish">Spanish</option>
+      </select>
+      <br>
+      <label for="city">City:</label>
+      <select id="city" name="city">
+        <option value="delhi">Delhi</option>
+        <option value="lucknow">Lucknow</option>
+        <option value="mumbai">Mumbai</option>
+      </select>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    <hr>
+    <h3>Extract Details from Website</h3>
+    <input type="text" id="urlInput" placeholder="Paste website URL here" style="width:100%;padding:8px;">
+    <button id="extractBtn" style="width:100%;margin-top:10px;">Extract Details</button>
+    <div id="extractResult"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
