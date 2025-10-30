@@ -1,0 +1,12 @@
+{
+  "name": "express-api-dropdown",
+  "version": "1.0.0",
+  "description": "Express API serving a page with language and city dropdowns, returns selected values as JSON.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
